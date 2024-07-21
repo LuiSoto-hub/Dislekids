@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.containerr {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+header {
+    background-color: #55a5df;
+    color: #fff;
+   
+}
+
+header h1 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+nav ul {
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+   background-color: #418077;
+    display: inline;
+    margin-right: 10px;
+    border-radius: 50px;
+    padding: 10px;
+}
+ nav ul li a {
+
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+} 
+
+.inicio{
+    color: #ffffff; 
+    background-color: #16fd21;
+}
+.acerca{
+    color: #ffffff;
+    background-color: #f88b25; 
+}
+.contacto{
+    color: #ffffff; 
+    background-color: red;
+}
+.juegos{
+    color: #ffffff; 
+    background-color: #e60be6;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: 10 auto;
+    background-color: #4e0707;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #4CAF50;
+}
+p {
+    margin-bottom: 20px;
+}
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #45a049;
+}

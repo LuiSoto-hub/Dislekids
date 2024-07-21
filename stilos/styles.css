@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #519ACF;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+nav ul {
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+   background-color: #418077;
+    display: inline;
+    margin-right: 10px;
+    border-radius: 50px;
+    padding: 10px;
+}
+ nav ul li a {
+
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+} 
+
+.inicio{
+    color: #ffffff; 
+    background-color: #16fd21;
+}
+.acerca{
+    color: #ffffff;
+    background-color: #f88b25; 
+}
+.contacto{
+    color: #ffffff; 
+    background-color: red;
+}
+.juegos{
+    color: #ffffff; 
+    background-color: #e60be6;
+}
+
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px 0;
+}
+
+section {
+    background-color: #F59708;
+    color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #519ACF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
